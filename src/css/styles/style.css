@@ -13140,8 +13140,50 @@ a.read_more i {
 
 
 .grey{
-  background-color: lightgray;
+  background-color: lightgray !important;
+  color: lightgray !important;
+  border: lightgray !important;
 }
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grey-box {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  background-color: #CCCCCC;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 1100px){
+  .time{
+    font-size: 14px;
+  }
+
+  .de_countdown{
+    max-width: 100px
+    ;
+  }
+}
+
+@media (max-width:1200px) {
+  .de_countdown{
+    max-width: 1200px;
+  }
+}
+
+.spaceOut{
+  display: flex;
+  justify-content: space-between;
+}
+
 .dih-title {
   opacity: 0;
   font-size: 16px;
@@ -13604,6 +13646,10 @@ a.read_more i {
   padding: 0;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+
+.time{
+  color: black;
 }
 
 .item_info .de_countdown .countdown-section {
