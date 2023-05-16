@@ -91,30 +91,39 @@ const HotCollections = () => {
              
            >
              <div className="nft_coll  ">
-               <div className="nft_wrap grey " >
+               <div className="nft_wrap " >
                  <Link to={`/item-details/`}>
-                   <img
-                     src={''}
-                     className="lazy img-fluid "
+                   <div
+                    
+                     style={ {height:"120px", backgroundColor:"lightgrey"}}
                      alt=""
                    />
                  </Link>
                </div>
-               <div className="nft_coll_pp grey">
+               <div className="nft_coll_pp  " style={ {border:'solid lightgrey 3px', background:"lightgrey", height:"60px" , borderRadius:"100px"}}>
                  <Link to={`/author/`}>
                    <img
                      className="lazy pp-coll grey"
-                     src={''}
-                     alt=""
+                     
+                     
                    />
                  </Link>
-                 <i className="fa fa-check"></i>
+                 <i className="fa fa-check grey "></i>
                </div>
-               <div className="nft_coll_info grey">
-                 <Link to="/explore">
-                   <h4></h4>
+               <div className="nft_coll_info" style={{}}>
+                 {/* <Link to="/explore">
+                   <h4 className="" style={{height:"50px", width:"100%", backgroundColor:"lightgrey"}}></h4>
                  </Link>
-                 <span></span>
+                 <span></span> */}
+
+                  <div className="center">
+                    <div style={{width:"140px" , backgroundColor:"lightgrey" , height:"20px"}}></div>
+                    <div style={{width:"100px" , backgroundColor:"lightgrey", height:"18px", margin:"10px"}}></div>
+                  </div>
+
+
+
+
                </div>
              </div>
            </div>
