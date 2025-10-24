@@ -1,0 +1,116 @@
+{
+  "project_title": "Global Netflix Catalogue Deep Dive",
+  "data_points": {
+    "total_titles": 60,
+    "unique_countries": 35,
+    "top_genre": "Dramas",
+    "non_us_share_pct": 95.0,
+    "most_active_year": 2021
+  },
+  "insight_cards": [
+    {
+      "title": "Titles analysed",
+      "value": "60",
+      "description": "Curated catalogue entries spanning films and series from 2014-2021."
+    },
+    {
+      "title": "Countries represented",
+      "value": "35",
+      "description": "A globally diverse line-up with heavy representation from emerging markets."
+    },
+    {
+      "title": "Top genre",
+      "value": "Dramas",
+      "description": "21 appearances across the library, driven by international audiences."
+    },
+    {
+      "title": "Peak release year",
+      "value": "2021",
+      "description": "16 titles launched, marking the catalogue's fastest growth year."
+    }
+  ],
+  "narrative": [
+    {
+      "heading": "Global reach is accelerating",
+      "detail": "95.0% of the catalogue now comes from outside the United States, signalling a deliberate localisation strategy."
+    },
+    {
+      "heading": "Genre investments favour documentaries and dramas",
+      "detail": "Documentary-led genres take 16 slots in the top-performing categories, pairing with drama formats for cross-market appeal."
+    },
+    {
+      "heading": "Consistent year-on-year growth",
+      "detail": "Annual releases grew from 1 titles in 2014 to 16 launches by 2021, underscoring resilient production pipelines."
+    }
+  ],
+  "country_genres": [
+    {
+      "country": "South Korea",
+      "title_count": 4,
+      "top_genres": [
+        "Dramas",
+        "Reality TV",
+        "International TV"
+      ]
+    },
+    {
+      "country": "Canada",
+      "title_count": 4,
+      "top_genres": [
+        "Documentaries",
+        "Crime TV Shows",
+        "Dramas"
+      ]
+    },
+    {
+      "country": "Japan",
+      "title_count": 4,
+      "top_genres": [
+        "International TV",
+        "Anime Series",
+        "Docuseries"
+      ]
+    },
+    {
+      "country": "United States",
+      "title_count": 3,
+      "top_genres": [
+        "Documentaries",
+        "Science & Nature TV",
+        "Dramas"
+      ]
+    },
+    {
+      "country": "India",
+      "title_count": 3,
+      "top_genres": [
+        "Dramas",
+        "International Movies",
+        "Crime Movies"
+      ]
+    }
+  ],
+  "type_mix": {
+    "Movie": 31,
+    "TV Show": 29
+  },
+  "workflow": [
+    {
+      "step": "Data ingestion & cleaning",
+      "detail": "Parsed Netflix title exports, standardised multi-select fields, and resolved geographic duplicates with Python."
+    },
+    {
+      "step": "Exploratory analysis",
+      "detail": "Profiled release cadence, geographic spread, and genre depth to uncover high-level patterns using notebook-ready scripts."
+    },
+    {
+      "step": "Storyboarding",
+      "detail": "Built a Power BI storyboard to translate metrics into stakeholder-friendly visuals and executive insights."
+    }
+  ],
+  "recommendations": [
+    "Double down on documentary and drama formats in South Korea, India, and Brazil where engagement is accelerating.",
+    "Prototype cross-genre bundles (music + documentary) for LATAM markets to test retention lifts.",
+    "Leverage Power BI dashboards for monthly content planning reviews alongside regional leads."
+  ]
+}
